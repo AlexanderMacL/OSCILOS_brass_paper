@@ -54,7 +54,7 @@ Good agreement with published measurements and simulations for this geometry is 
 
 ![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:Tromb}](figures/TromboneEFP.png)
 
-![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:Tuba}](figures/TubaEFP.png)
+![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:Tuba}](figures/TubaEFP.eps)
 
 # Acknowledgements
 
