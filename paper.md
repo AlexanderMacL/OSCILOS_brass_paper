@@ -11,13 +11,11 @@ authors:
 - name: Alexander MacLaren
   orcid: 0000-0002-5835-216X
   affiliation: 1
-- name: Renaud Gaudron^["Corresponding author r.gaudron\@imperial.ac.uk"]
-  affiliation: 2
+- name: Renaud Gaudron^[Corresponding author, r.gaudron\@imperial.ac.uk]
+  affiliation: 1
 affiliations:
 - name: Department of Mechanical Engineering, Imperial College London, UK
   index: 1
-- name: "r.gaudron@imperial.ac.uk"
-  index: 2
 date: 10 October 2020
 ---
 
