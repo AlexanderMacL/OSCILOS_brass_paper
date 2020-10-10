@@ -11,13 +11,11 @@ authors:
 - name: Alexander MacLaren
   orcid: 0000-0002-5835-216X
   affiliation: 1
-- name: Renaud Gaudron^[Corresponding author]
-  affiliation: "1, 2"
+- name: "Renaud Gaudron^[Corresponding author, 'r.gaudron@imperial.ac.uk']"
+  affiliation: 1
 affiliations:
-- name: Imperial College London
+- name: Department of Mechanical Engineering, Imperial College London, UK
   index: 1
-- name: Aimee Morgans, Professor of Thermofluids, Dept. Mechanical Engineering, Imperial College London
-  index: 2
 date: 10 October 2020
 ---
 
