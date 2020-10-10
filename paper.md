@@ -1,5 +1,5 @@
 ---
-title: "OSCILOS_brass, an acoustic solver for brass instruments"
+title: 'OSCILOS_brass, an acoustic solver for brass instruments'
 bibliography: paper.bib
 tags:
 - brass instruments
@@ -8,11 +8,17 @@ tags:
 - musical acoustics
 - MATLAB
 authors:
-  - name: Alexander MacLaren^[This is a custom footnote.]
-    orcid: 0000-0002-5835-216X
-    affiliation: 1
-  - name: Renaud Gaudron
-    affiliation: "1, 2"
+- name: Alexander MacLaren
+  orcid: 0000-0002-5835-216X
+  affiliation: 1
+- name: Renaud Gaudron^[Corresponding author, r.gaudron@imperial.ac.uk]
+  affiliation: "1, 2"
+affiliations:
+- name: Imperial College London
+  index: 1
+- name: Aimee Morgans, Professor of Thermofluids, Dept. Mechanical Engineering, Imperial College London
+  index: 2
+date: 10 October 2020
 ---
 
 # Summary
