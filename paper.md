@@ -6,6 +6,7 @@ tags:
   - aeroacoustics
   - musical acoustics
   - MATLAB
+bibliography: paper.bib
 authors:
   - name: Alexander MacLaren
     orcid: 0000-0002-5835-216X
@@ -18,7 +19,6 @@ affiliations:
  - name: Aimee Morgans, Professor of Thermofluids, Dept. Mechanical Engineering, Imperial College London
    index: 2
 date: 10 October 2020
-bibliography: paper.bib
 ---
 
 # Summary
@@ -68,10 +68,11 @@ the above trombone geometry.
 
 ![EFP output by OSCILOS_brass for 4 sets of boundary conditions applied to the trombone geometry from [@Bilbao2013]\label{fig:trombBC}](figures/TromboneBCsEFP.png)
 
-Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:tuba}
+Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:Tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:Tuba}
 
-![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:tromb}](figures/TromboneEFP.png)
-![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:tuba}](figures/TubaEFP.png)
+![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:Tromb}](figures/TromboneEFP.png)
+
+![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:Tuba}](figures/TubaEFP.png)
 
 # Acknowledgements
 
