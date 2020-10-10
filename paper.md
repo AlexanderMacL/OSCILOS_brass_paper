@@ -66,11 +66,11 @@ the above trombone geometry.
 	\mathrm{EFP}(f_i) = \frac{1200}{\log(2)}\log\left[\frac{f_i}{iF}\right]
 \end{equation}
 
-![EFP output by OSCILOS_brass for 4 sets of boundary conditions applied to the trombone geometry from [@Bilbao2013]\label{fig:trombBC}](figures/TromboneBCsEFP.png)
+![EFP output by OSCILOS_brass for 4 sets of boundary conditions applied to the trombone geometry from [@Bilbao2013]\label{fig:trombBC}](figures/TromboneBCsEFP.eps)
 
 Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:Tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:Tuba}
 
-![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:Tromb}](figures/TromboneEFP.png)
+![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:Tromb}](figures/TromboneEFP.eps)
 
 ![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:Tuba}](figures/TubaEFP.eps)
 
