@@ -1,6 +1,12 @@
 ---
 title: "OSCILOS_brass, an acoustic solver for brass instruments"
 bibliography: paper.bib
+tags:
+- brass instruments
+- acoustics
+- aeroacoustics
+- musical acoustics
+- MATLAB
 ---
 
 # Summary
