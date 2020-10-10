@@ -8,11 +8,11 @@ tags:
 - musical acoustics
 - MATLAB
 authors:
-- name: Alexander MacLaren
-  orcid: 0000-0002-5835-216X
-  affiliation: 1
-- name: Renaud Gaudron^[Corresponding author: r.gaudron@imperial.ac.uk]
-  affiliation: "1, 2"
+  - name: Alexander MacLaren
+    orcid: 0000-0002-5835-216X
+    affiliation: 1
+  - name: Renaud Gaudron
+    affiliation: "1, 2"
 ---
 
 # Summary
