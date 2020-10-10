@@ -49,7 +49,7 @@ calculated assuming 1-D flow conditions, with changes only
 across element interfaces. The current release is for longitudinal 
 modes only.
 
-A typical tenor trombone geometry is shown in Fig. \autoref{fig:geom}.
+A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 
 ![Trombone bore profile from [@Bilbao2013] as represented by OSCILOS_brass\label{fig:geom}](figures/TromboneGeometry.png)
 
@@ -69,7 +69,7 @@ the above trombone geometry.
 
 ![EFP output by OSCILOS_brass for 4 sets of boundary conditions applied to the trombone geometry from [@Bilbao2013]](figures/TromboneBCsEFP.png)
 
-Good agreement with published measurements and simulations for this geometry is shown in Fig. \autoref{fig:tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:tuba}
+Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:tuba}
 
 ![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013]\label{fig:tromb}](figures/TromboneEFP.png)
 ![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013]\label{fig:tuba}](figures/TubaEFP.png)
