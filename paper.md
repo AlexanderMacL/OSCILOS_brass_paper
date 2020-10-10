@@ -69,6 +69,7 @@ the above trombone geometry.
 Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:Tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:Tuba}
 
 ![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013].\label{fig:Tromb}](figures/TromboneEFP.eps)
+
 ![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013].\label{fig:Tuba}](figures/TubaEFP.eps)
 
 # Acknowledgements
