@@ -71,7 +71,7 @@ the above trombone geometry.
 
 ![EFP output by OSCILOS_brass for 4 sets of boundary conditions applied to the trombone geometry from [@Bilbao2013].\label{fig:trombBC}](figures/TromboneBCsEFP.eps)
 
-Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:Tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:Tuba}
+Good agreement with published measurements and simulations for this geometry, and for a tuba geometry from a separate study [@Norman2013], is demonstrated in \autoref{fig:Tromb}.
 
 ![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013] (left), and to results for tuba geometry from [@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
 
