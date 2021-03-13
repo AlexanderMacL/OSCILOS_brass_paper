@@ -55,7 +55,7 @@ A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 
 ![Trombone bore profile from [@Bilbao2013] as represented by OSCILOS_brass.\label{fig:geom}](figures/TromboneGeometry.png)
 
-OSCILOS_brass calculates the Equivalent Fundamental Pitch deviation 
+OSCILOS_brass calculates Equivalent Fundamental Pitch (EFP) deviation 
 defined by [@Chick2004], according to \autoref{eqn:EFP}, where 
 $f_i$ is the frequency of the $i$th mode, and $F$ is the reference 
 fundamental pitch, conventionally taken as $f_4/4$, the note to which 
