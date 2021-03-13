@@ -48,8 +48,9 @@ a sequence of connected cylindrical finite elements, using a 1-D plane
 wave approximation. A variety of inlet and exit acoustic boundary 
 conditions are available, including open, closed, Levine-Schwinger and 
 user-defined boundary conditions. The mean flow is calculated assuming 
-1-D flow conditions, with changes only across element interfaces. The 
-current release is for longitudinal modes only.
+1-D flow conditions, with changes only across element interfaces. 
+Extensive documentation is provided in the accompanying technical 
+report and user guide [@MacLaren2021].
 
 A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 
