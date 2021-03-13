@@ -21,30 +21,33 @@ date: 10 October 2020
 
 # Summary
 
- The sound, or timbre, of musical instruments is controlled by the 
- balance and tuning of their modal frequencies, or harmonics. In brass 
+ The sound, or timbre, of musical instruments is determined by the 
+ distribution of their modal frequencies, or harmonics. In brass 
  instruments like the trumpet, french horn and trombone, the geometry 
  of the internal bore is the principal factor determining the modal 
  frequencies. Harmonic analysis of brass instruments is necessary to 
  assist bore shape optimisation by instrument makers, and to enable 
  research into lip dynamics, the origins of 'brassiness', and other 
- prevailing questions in brass wind acoustics. 
+ prevailing questions in brass wind acoustics. OSCILOS_brass provides 
+ an easy-to-use platform for determining the resonant modes of a given 
+ instrument geometry, be it trombone or drainpipe.
 
 
 # Statement of need
 
-OSCILOS_brass provides an easy-to-use platform for determining the 
-resonant modes of a given instrument geometry, be it drainpipe or tuba. OSCILOS_brass is based on 
-OSCILOS_long [@Li2017], the open-source combustion instability low-order 
-simulator (longditudinal), an open source code for simulating 
+OSCILOS_brass is intended as a tool to assist brass wind acoustics 
+research, allowing the effects of nuances in instrument geometry on 
+sound and playability to be explored. OSCILOS_brass is based on 
+OSCILOS_long [@Li2017], the open-source combustion instability 
+low-order simulator (longditudinal), an open source code for simulating 
 combustion instability. It is written in MATLAB, is highly modular, and 
 is straightforward to run and edit. It represents an instrument bore as 
-a sequence of connected cylindrical finite elements, using a 1-D plane wave approximation. A variety of inlet and exit acoustic 
-boundary conditions are available, including open, closed, 
-Levine-Schwinger and user-defined boundary conditions. The mean flow is 
-calculated assuming 1-D flow conditions, with changes only 
-across element interfaces. The current release is for longitudinal 
-modes only.
+a sequence of connected cylindrical finite elements, using a 1-D plane 
+wave approximation. A variety of inlet and exit acoustic boundary 
+conditions are available, including open, closed, Levine-Schwinger and 
+user-defined boundary conditions. The mean flow is calculated assuming 
+1-D flow conditions, with changes only across element interfaces. The 
+current release is for longitudinal modes only.
 
 A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 
