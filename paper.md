@@ -23,16 +23,16 @@ date: 13 March 2021
 
 # Summary
 
- The sound, or timbre, of musical instruments is determined by the 
- distribution of their modal frequencies, or harmonics. In brass 
- instruments like the trumpet, french horn and trombone, the geometry 
- of the internal bore is the principal factor determining the modal 
- frequencies. Harmonic analysis of brass instruments is necessary to 
- assist bore shape optimisation by instrument makers, and to enable 
- research into lip dynamics, the origins of 'brassiness', and other 
- prevailing questions in brass wind acoustics. OSCILOS_brass provides 
- an easy-to-use platform for determining the resonant modes of a given 
- instrument geometry, be it trombone or drainpipe.
+ The sound, or timbre, of musical instruments is governed by the 
+ distribution of their modal frequencies. In brass instruments like the 
+ trumpet, french horn and trombone, the geometry of the internal bore 
+ is the principal factor determining the modal frequencies. Harmonic 
+ analysis of brass instruments is necessary to assist bore shape 
+ optimisation by instrument makers, and to enable research into lip 
+ dynamics, the origins of 'brassiness', and other prevailing questions 
+ in brass wind acoustics. OSCILOS_brass provides an easy-to-use 
+ platform for determining the modal frequencies of a given instrument 
+ geometry, be it trombone or drainpipe.
 
 
 # Statement of need
@@ -54,7 +54,8 @@ report and user guide [@MacLaren2021].
 
 A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 
-![Trombone bore profile from [@Bilbao2013] as represented by OSCILOS_brass.\label{fig:geom}](figures/TromboneGeometry.png)
+![Trombone bore profile from [@Bilbao2013] as represented by 
+OSCILOS_brass.\label{fig:geom}](figures/TromboneGeometry.png)
 
 OSCILOS_brass calculates Equivalent Fundamental Pitch (EFP) deviation 
 defined by [@Chick2004], according to \autoref{eqn:EFP}, where 
@@ -70,11 +71,17 @@ the above trombone geometry.
 	\mathrm{EFP}(f_i) = \frac{1200}{\log(2)}\log\left[\frac{f_i}{iF}\right]
 \end{equation}
 
-![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary conditions applied to the trombone geometry from [@Bilbao2013].\label{fig:trombBC}](figures/TromboneBCsEFP.eps)
+![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary 
+conditions applied to the trombone geometry from 
+[@Bilbao2013].\label{fig:trombBC}](figures/TromboneBCsEFP.eps)
 
-Good agreement with published measurements and simulations for this geometry, and for a tuba geometry from a separate study [@Norman2013], is demonstrated in \autoref{fig:Tromb}.
+Good agreement with published measurements and simulations for this 
+geometry, and for a tuba geometry from a separate study [@Norman2013], 
+is demonstrated in \autoref{fig:Tromb}.
 
-![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013] (left), and to results for tuba geometry from [@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
+![OSCILOS_brass EFP comparison to results for trombone geometry from 
+[@Bilbao2013] (left), and to results for tuba geometry from 
+[@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
 
 # Acknowledgements
 
