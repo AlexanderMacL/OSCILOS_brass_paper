@@ -11,12 +11,14 @@ authors:
 - name: Alexander MacLaren
   orcid: 0000-0002-5835-216X
   affiliation: 1
+- name: Aimee S. Morgans
+  affiliation: 1
 - name: Renaud Gaudron^[Corresponding author, r.gaudron\@imperial.ac.uk]
   affiliation: 1
 affiliations:
 - name: Department of Mechanical Engineering, Imperial College London, UK
   index: 1
-date: 10 October 2020
+date: 13 March 2021
 ---
 
 # Summary
@@ -71,9 +73,7 @@ the above trombone geometry.
 
 Good agreement with published measurements and simulations for this geometry is shown in \autoref{fig:Tromb}. Comparison to Tuba measurements obtained by a separate study is shown in \autoref{fig:Tuba}
 
-![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013].\label{fig:Tromb}](figures/TromboneEFP.eps)
-
-![OSCILOS_brass EFP comparison to results for tuba geometry from [@Norman2013].\label{fig:Tuba}](figures/TubaEFP.eps)
+![OSCILOS_brass EFP comparison to results for trombone geometry from [@Bilbao2013] (left), and to results for tuba geometry from [@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
 
 # Acknowledgements
 
