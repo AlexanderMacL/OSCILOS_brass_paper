@@ -1,5 +1,5 @@
 ---
-title: 'OSCILOS_brass, an acoustic solver for brass instruments'
+title: 'OSCILOS_brass: an acoustic solver for brass instruments'
 bibliography: paper.bib
 tags:
 - brass instruments
@@ -40,9 +40,8 @@ date: 13 March 2021
 OSCILOS_brass is intended as a tool to assist brass wind acoustics 
 research, allowing the effects of nuances in instrument geometry on 
 sound and playability to be explored. OSCILOS_brass is based on 
-OSCILOS_long [@Li2017], the open-source combustion instability 
-low-order simulator (longditudinal), an open source code for simulating 
-combustion instability. It is written in MATLAB, is highly modular, and 
+OSCILOS_long [@Li2017], an open source code for simulating 
+combustion instabilities, whose predictions have been validated against experiments [@Han2015, @Xia2019]. OSCILOS_brass is written in MATLAB, is highly modular, and 
 is straightforward to run and edit. It represents an instrument bore as 
 a sequence of connected cylindrical finite elements, using a 1-D plane 
 wave approximation. A variety of inlet and exit acoustic boundary 
@@ -58,7 +57,7 @@ A typical tenor trombone geometry is shown in \autoref{fig:geom}.
 OSCILOS_brass.\label{fig:geom}](figures/TromboneGeometry.png)
 
 OSCILOS_brass calculates Equivalent Fundamental Pitch (EFP) deviation 
-defined by [@Chick2004], according to \autoref{eqn:EFP}, where 
+defined by \autoref{eqn:EFP} [@Chick2004], where 
 $f_i$ is the frequency of the $i$th mode, and $F$ is the reference 
 fundamental pitch, conventionally taken as $f_4/4$, the note to which 
 brass players often tune their instruments. The unit of this definition 
@@ -73,7 +72,8 @@ the above trombone geometry.
 
 ![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary 
 conditions applied to the trombone geometry from 
-[@Bilbao2013].\label{fig:trombBC}](figures/TromboneBCsEFP.eps)
+[@Bilbao2013] (left), and to results for tuba geometry from 
+[@Norman2013] (right) \label{fig:trombBC}](figures/TromboneTubaBCsEFP.png)
 
 Good agreement with published measurements and simulations for this 
 geometry, and for a tuba geometry from a separate study [@Norman2013], 
