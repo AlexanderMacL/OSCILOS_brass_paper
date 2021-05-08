@@ -41,7 +41,7 @@ OSCILOS_brass is intended as a tool to assist brass wind acoustics
 research, allowing the effects of nuances in instrument geometry on 
 sound and playability to be explored. OSCILOS_brass is based on 
 OSCILOS_long [@Li2017], an open source code for simulating 
-combustion instabilities, whose predictions have been validated against experiments [@Han2015, @Xia2019]. OSCILOS_brass is written in MATLAB, is highly modular, and 
+combustion instabilities, whose predictions have been validated against experiments [@Han2015; @Xia2019]. OSCILOS_brass is written in MATLAB, is highly modular, and 
 is straightforward to run and edit. It represents an instrument bore as 
 a sequence of connected cylindrical finite elements, using a 1-D plane 
 wave approximation. A variety of inlet and exit acoustic boundary 
