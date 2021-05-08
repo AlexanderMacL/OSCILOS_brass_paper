@@ -77,8 +77,8 @@ is demonstrated in \autoref{fig:Tromb}.
 [@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
 
 EFP is shown for 4 combinations of boundary 
-conditions in \autoref{fig:trombBC}, as calculated by OSCILOS_brass for 
-the trombone geometry in \autoref{fig:geom}.
+conditions in \autoref{fig:trombBC}, as calculated for 
+the trombone geometry in \autoref{fig:geom} by OSCILOS_brass.
 
 ![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary 
 conditions applied to the trombone geometry from 
