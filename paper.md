@@ -62,18 +62,11 @@ $f_i$ is the frequency of the $i$th mode, and $F$ is the reference
 fundamental pitch, conventionally taken as $f_4/4$, the note to which 
 brass players often tune their instruments. The unit of this definition 
 is the \verb|[cent]|, equal to $1/100$th of a semitone, or a frequency 
-ratio of $\sqrt[1200]{2}$. EFP is shown for 4 combinations of boundary 
-conditions in \autoref{fig:trombBC}, as calculated by OSCILOS_brass for 
-the above trombone geometry.
+ratio of $\sqrt[1200]{2}$.
 
 \begin{equation}\label{eqn:EFP}
 	\mathrm{EFP}(f_i) = \frac{1200}{\log(2)}\log\left[\frac{f_i}{iF}\right]
 \end{equation}
-
-![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary 
-conditions applied to the trombone geometry from 
-[@Bilbao2013] (left), and to results for tuba geometry from 
-[@Norman2013] (right) \label{fig:trombBC}](figures/TromboneTubaBCsEFP.png)
 
 Good agreement with published measurements and simulations for this 
 geometry, and for a tuba geometry from a separate study [@Norman2013], 
@@ -82,6 +75,15 @@ is demonstrated in \autoref{fig:Tromb}.
 ![OSCILOS_brass EFP comparison to results for trombone geometry from 
 [@Bilbao2013] (left), and to results for tuba geometry from 
 [@Norman2013] (right).\label{fig:Tromb}](figures/TromboneTubaEFP.png)
+
+EFP is shown for 4 combinations of boundary 
+conditions in \autoref{fig:trombBC}, as calculated by OSCILOS_brass for 
+the trombone geometry in \autoref{fig:geom}.
+
+![EFP output by OSCILOS_brass for 4 \[Inlet - Outlet\] sets of boundary 
+conditions applied to the trombone geometry from 
+[@Bilbao2013] (left), and to results for tuba geometry from 
+[@Norman2013] (right) \label{fig:trombBC}](figures/TromboneTubaBCsEFP.png)
 
 # Acknowledgements
 
