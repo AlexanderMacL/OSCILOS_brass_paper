@@ -85,6 +85,8 @@ conditions applied to the trombone geometry from
 [@Bilbao2013] (left), and to results for tuba geometry from 
 [@Norman2013] (right) \label{fig:trombBC}](figures/TromboneTubaBCsEFP.png)
 
+\vspace{2em}
+
 # Dependencies
 
 \begin{itemize}
