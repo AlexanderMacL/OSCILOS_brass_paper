@@ -85,6 +85,13 @@ conditions applied to the trombone geometry from
 [@Bilbao2013] (left), and to results for tuba geometry from 
 [@Norman2013] (right) \label{fig:trombBC}](figures/TromboneTubaBCsEFP.png)
 
+# Dependencies
+
+\begin{itemize}
+	\item MATLAB 2020a or later
+	\item Optimization Toolbox 
+\end{itemize}
+
 # Acknowledgements
 
 This work was supported in part by the European Research Council (ERC) 
