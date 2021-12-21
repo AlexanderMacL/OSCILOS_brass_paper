@@ -89,7 +89,7 @@ conditions applied to the trombone geometry from
 
 \begin{itemize}
 	\item MATLAB 2020a or later
-	\item Optimization Toolbox  `fsolve`
+	\item Optimization Toolbox  (\texttt{fsolve})
 \end{itemize}
 
 # Acknowledgements
